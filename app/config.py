@@ -1,0 +1,1 @@
+DATABASE_URL = "postgres://pandaanwesh33:password@localhost/hotel_monitoring"
