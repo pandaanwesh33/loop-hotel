@@ -1,9 +1,0 @@
-from database.base_model import BaseModel
-from playhouse.postgres_ext import BigAutoField, TextField,DateTimeField, DateTimeTZField,CharField, ArrayField, IntegerField, BinaryJSONField, TSVectorField
-
-class StorePollStatus(BaseModel):
-    store_id = CharField()
-    timestamp_utc = DateTimeField()
-    status = CharField()  # 'active' or 'inactive'
-
-    
